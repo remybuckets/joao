@@ -1,0 +1,24 @@
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.about{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.expand:hover{
+  background-color: white;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  /*transition: all .5s ease;*/
+  transition: all 0.5s ease-in-out;
+}
+.expand:hover *{
+  color: rgb(17, 24, 39);
+}
+
